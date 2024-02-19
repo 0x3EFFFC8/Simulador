@@ -23,5 +23,6 @@ unsigned empty(memory * tmp);
 void insertFirst(memory * tmp, int addr, int band, int data, char * inst[5]);
 Node* findNode(memory * Node, int addr);
 void Print(memory *mem);
+void freeList(memory *tmp);
 
 #endif

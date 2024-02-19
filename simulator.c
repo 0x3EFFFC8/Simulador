@@ -27,6 +27,7 @@ int main(){
     insertFirst(mem,i,0,INT_MIN,trash);
   }
   readASM();
+  freeList(mem);
 }
 
 void readASM(){

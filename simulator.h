@@ -1,7 +1,6 @@
 #ifndef SIMULATOR_H
 #define SIMULATOR_H
 
-#define SIZE_MEM 5000
 #define MAX_LINE_LENGTH 100 
 #define INIT_INSTRUCTIONS 4400
 

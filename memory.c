@@ -55,3 +55,17 @@ void Print(memory *mem) {
 		tmp = tmp -> prev;
 	}
 }
+
+void freeList(memory *tmp) {
+    Node *current = tmp -> head;
+    Node *next;
+
+    while (current != NULL) {
+        next = current -> next;
+        free(current);
+        current = next;
+    }
+
+    tmp->head = NULL;
+    tmp->tail = NULL;
+}
